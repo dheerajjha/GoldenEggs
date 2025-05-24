@@ -6,7 +6,7 @@ class SocketService {
   static Function(Tweet)? _onNewTweet;
 
   static void init() {
-    _socket = IO.io('http://localhost:5500', <String, dynamic>{
+    _socket = IO.io('http://20.193.143.179:5500', <String, dynamic>{
       'transports': ['websocket'],
       'autoConnect': true,
     });

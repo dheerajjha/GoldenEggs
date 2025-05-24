@@ -5,7 +5,7 @@ import '../models/bot.dart';
 import '../models/stock.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://localhost:5500/api';
+  static const String baseUrl = 'http://20.193.143.179:5500/api';
   static const String userId = 'user_default';
   static const String userName = 'Stock Trader';
 
